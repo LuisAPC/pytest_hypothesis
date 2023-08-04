@@ -1,6 +1,6 @@
 from typing import Callable
 import pytest
-from hypothesis import given, settings
+from hypothesis import given
 from hypothesis.strategies import integers, composite, SearchStrategy
 from ..office import Employee, fire_random_employee, generate_random_team
 
